@@ -4,7 +4,8 @@ import { Banner,Logo } from "../assets/index.js";
 import { BsArrowRightCircle } from "react-icons/bs";
 const Home = () => {
   return (
-    <div class="card">
+    <div className="home">
+      <div class="card">
       <div class="Menu">
         <li>Home</li>
         <li>Products</li>
@@ -21,6 +22,7 @@ const Home = () => {
       <div class="content2"><a href="db"><BsArrowRightCircle/></a></div>
       <div class="content3"></div>
       <div class="content4"></div>
+    </div>
     </div>
   );
 };

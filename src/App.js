@@ -11,7 +11,7 @@ import Footer from './Compontents/Footer'
 
 function App() {
   return (
-    <div>
+    <div className='maindiv'>
       <Home/>
       <Products/>
       <Offers/>
