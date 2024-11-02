@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Black-and-Fighter/static/css/main.32b88460.css",
+    "main.css": "/Black-and-Fighter/static/css/main.eb9a6cce.css",
     "main.js": "/Black-and-Fighter/static/js/main.7c5b9a7d.js",
     "static/media/featureprod.png": "/Black-and-Fighter/static/media/featureprod.2e32d6c6332649abb33f.png",
     "static/media/LOGO-BLACK&FIGHTER-01.png": "/Black-and-Fighter/static/media/LOGO-BLACK&FIGHTER-01.01bde2ca0e30b4358487.png",
@@ -18,11 +18,11 @@
     "static/media/cooker.png": "/Black-and-Fighter/static/media/cooker.9e2a1c1a02d5566fdfaf.png",
     "static/media/cat1.png": "/Black-and-Fighter/static/media/cat1.f59a9ac5ed7efa4ff3aa.png",
     "index.html": "/Black-and-Fighter/index.html",
-    "main.32b88460.css.map": "/Black-and-Fighter/static/css/main.32b88460.css.map",
+    "main.eb9a6cce.css.map": "/Black-and-Fighter/static/css/main.eb9a6cce.css.map",
     "main.7c5b9a7d.js.map": "/Black-and-Fighter/static/js/main.7c5b9a7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.32b88460.css",
+    "static/css/main.eb9a6cce.css",
     "static/js/main.7c5b9a7d.js"
   ]
 }
