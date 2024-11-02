@@ -1,0 +1,134 @@
+.featured{
+    padding: 30px 40px;
+}
+.product-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+  }
+  
+  .product-details {
+    max-width: 40%;
+  }
+  
+  .sale-badge {
+    background-color: #ffde00;
+    color: #000;
+    padding: 4px 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  
+  .product-details h2 {
+    font-size: 24px;
+    color: #000;
+    margin: 0;
+  }
+  
+  .product-details p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .view-button2 {
+    padding: 10px 20px;
+    border-radius: 0%;
+    border: 1px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .view-button2:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .nav-arrow {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .nav-arrow:hover {
+    color: #000;
+  }
+  
+  .product-image-container {
+    position: relative;
+    background-color: #f2f2f2;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cutting{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    border-bottom-left-radius: 20px;
+    width: 80px;
+    right: 0;
+    top: 0;
+  }
+  .cutting::before{
+    content: "";
+    position: absolute;
+    background: #f2f2f2;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    left: -35px;
+    box-shadow: 17px -17px #ffffff;
+  }
+  .cutting::after{
+    content: "";
+    position: absolute;
+    background: #f2f2f2;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    right: 0;
+    bottom: -35px;
+    box-shadow: 17px -17px #ffffff;
+  }
+  
+.product-image {
+    width: 100%;
+    max-width: 250px;
+  }
+  
+.thumbnail {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: -35px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffde00;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+.thumbnail img {
+    width: 40px;
+    height: 40px;
+}

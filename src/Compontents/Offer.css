@@ -1,0 +1,50 @@
+.nothin{
+    padding:10px 40px;
+}
+
+.offer-section {
+    position: relative;
+    height: 200px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+  }
+  .rightbox{
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    border-bottom-left-radius: 25px;
+    background: #ffffff;
+    right: 0;
+    top: 0;
+  }
+  .c1{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 20px -20px rgb(255, 255, 255);
+    background-color: #f2f2f2;
+    left: -40px;
+  }
+  .c2{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 20px -20px rgb(255, 255, 255);
+    background-color: #f2f2f2;
+    bottom: -40px;
+    right: 0;
+  }
+
+  .txt h2 {
+    margin-bottom: 5px; /* Adjust this value as needed */
+    margin-left: 200px;
+  }
+  
+  .txt p {
+    margin-top: 0; /* Remove top margin */
+    margin-left: 200px;
+  }

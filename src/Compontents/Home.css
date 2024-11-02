@@ -1,0 +1,139 @@
+
+.card{
+  position: relative;
+  width: 100%;
+  max-width: 1160px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  padding: 10px 40px;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+.card .imgBx{
+  position: relative;
+  width: 100%;
+  height: 520px;
+  border-radius: 20px;
+}
+.card .imgBx img{
+  position: relative;
+  width: 100%;
+  height: 520px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+.card .content{
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  background: rgb(255, 255, 255);
+  border-right: 10px solid rgb(255, 255, 255);
+  border-bottom: 10px solid rgb(255, 255, 255);
+  border-bottom-right-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+.card .content img{
+  position: absolute;
+  width: auto;
+  height: 110px;
+  display: flex;
+
+}
+.card .content::before{
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: -60px;
+  border-radius: 50%;
+  box-shadow: -23px -23px 0 #ffffff;
+}
+.card::after{
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 120px;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: -23px -23px 0 #ffffff;
+}
+.card .content2{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  font-size: 20px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  right: 20px;
+}
+.card .content2 a{
+  display: flex;
+  align-self: center;
+  color: black;
+}
+.card .content2::before{
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  box-shadow: 12px -12px 0 #ffffff;
+  top: 60px;
+  right: 20px;
+}
+.card .content2::after{
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 20px;
+  bottom: 60px;
+  border-radius: 50%;
+  box-shadow: 12px 12px 0 #ffffff;
+}
+.card .Menu{
+  position: absolute;
+  display: flex;
+  font-family: 'Poppins';
+  color: rgb(0, 0, 0);
+  z-index: 2;
+  top: 30px;
+  right: 100px;
+  list-style: none;
+  gap: 50px;
+}
+.card h1{
+  position: absolute;
+  display: flex;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  z-index: 2;
+  align-self: center;
+  margin-left: 180px;
+}
+
+.view-button{
+  position: absolute;
+  display: flex;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+  z-index: 2;
+  align-self: center;
+  margin-left: 180px;
+  margin-top: 100px;
+  border-radius: 30px;
+  background-color: #ffffff;
+
+}

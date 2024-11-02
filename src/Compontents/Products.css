@@ -1,0 +1,95 @@
+.product{
+    padding: 30px 40px;
+}
+
+.heading{
+    color: black;
+}
+.swiper {
+    top: 20px;
+    width: 100%;
+    height: 530px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #ffffff;
+    border-radius: 15px;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  .swiper-slide.expanded {
+    height: 180px; /* Expanded height for additional items */
+}
+.slide-top {
+    flex: 1; /* This will allow the top section to take available space */
+    background: #F2F2F2; /* Background color for the top section */
+    border-radius: 15px; /* Rounded corners for the top */
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+}
+
+.slide-bottom {
+    transition: height 0.3s ease;
+    background: #F2F2F2; /* Background color for the bottom section */
+    border-radius:15px; /* Rounded corners for the bottom */
+    height: 130px;
+    bottom: 0px;
+    margin-top: 10px;
+    display: flex;
+    text-align: justify;
+    padding: 0px 20px;
+}
+.slide-bottom.expanded {
+    height: 200px; /* Expanded height for additional items */
+}
+.description h2{
+    font-weight: 500;
+    font-size: 18px;
+    height: 10px;
+    width: 100%;
+    justify-self: left;
+}
+.description li{
+    font-weight: 400;
+    font-size: 12px;
+    list-style: disc;
+    color: #00000080;
+}
+
+.air{
+    position: relative;
+    width: auto;
+    height: 250px;
+}
+.toggle-arrow {
+    cursor: pointer;
+    color: #333;
+    font-size: 20px;
+    display: flex;
+    text-align: end;
+    transition: transform 0.3s;
+}
+
+.toggle-arrow:hover {
+    color: #ff960b; /* Change color on hover */
+}
+
+.description ul{
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.desc{
+    display: flex;
+    justify-content: end;
+    gap: 80px;
+}
+ 
