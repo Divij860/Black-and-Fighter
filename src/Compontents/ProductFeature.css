@@ -1,3 +1,6 @@
+.eachprod{
+  position: relative;
+}
 .product-feature {
     display: flex;
     flex-direction: column;

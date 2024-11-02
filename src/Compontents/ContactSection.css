@@ -1,4 +1,5 @@
 .contact-section {
+  position: relative;
     display: flex;
     justify-content: left;
     padding: 20px 100px;

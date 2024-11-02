@@ -4,8 +4,8 @@ import { Click, Cooker, Featuredproduct, Power, Thunder, Warm } from '../assets'
 
 const ProductFeature = () => {
   return (
-    <div>
-        <div className="product-feature">
+    <div className='eachprod'>
+      <div className="product-feature">
       <div className="feature-grid">
         <div className="feature-item yellow">
           <img src={Thunder} alt="Voltage" />
